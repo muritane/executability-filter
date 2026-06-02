@@ -1,381 +1,293 @@
-# Executability Filter
+Executability Filter
 
-## A Structural Screening Procedure for Claims, Frameworks, Strategies, and Proposals
-
----
-
-## Status
-
-This document defines a minimal executability filter.
-
-It is not:
-
-* A theory of everything.
-* A governance framework.
-* A normative doctrine.
-* A prediction system.
-* A truth criterion.
-
-It is a screening procedure.
-
-Its purpose is to determine whether a claim has sufficient structural grounding to justify further analysis.
-
-The filter is designed to reduce evaluation cost by identifying under-specified claims before significant cognitive resources are committed.
+A Structural Existence Test for Execution-Relevant Abstractions
 
 ---
 
-# Core Principle
+Status
 
-Execution occurs in bounded physical systems.
+This document defines an executability filter.
 
-Any claim that ultimately affects action must reconcile with:
+It is not a framework for:
 
-1. Finite resources.
-2. Finite information.
-3. Irreversibility.
-4. Drift.
-5. Finite horizons.
-6. Structured topology.
-7. Consequence propagation.
+- Determining truth.
+- Predicting outcomes.
+- Optimizing performance.
+- Evaluating governance.
+- Assessing persistence.
+- Assessing scalability.
 
-Claims that cannot connect to execution remain interpretive rather than operational.
-
----
-
-# Purpose
+Its purpose is narrower.
 
 The filter asks:
 
-> Does this claim possess enough structural detail to participate in execution?
+«Can a proposed abstraction be structurally connected to execution within a bounded physical environment?»
 
-Not:
+This is an existence test.
 
-> Is it true?
+Not a success test.
 
-Not:
+Not a persistence test.
 
-> Is it morally correct?
-
-Not:
-
-> Is it inspiring?
-
-Only:
-
-> Is it sufficiently specified to support execution-relevant reasoning?
+Not a scaling test.
 
 ---
 
-# The Eight Executability Questions
+Motivation
 
-For any claim, proposal, framework, strategy, prediction, policy, or narrative:
+Many ideas fail long before questions of success, optimization, governance, incentives, or adaptation become relevant.
 
----
-
-## E1 — Execution Locus
-
-Who or what executes this?
-
-Identify:
-
-* Individual
-* Team
-* Institution
-* System
-* Component
-* Process
-
-Questions:
-
-* What performs the state transition?
-* What possesses control authority?
-* What bears execution burden?
-
-If no execution locus can be identified:
-
-Result:
-
-UNDER-TYPED
-
----
-
-## E2 — Resource Basis
-
-What resources are consumed?
-
-Identify relevant resource vectors:
-
-* Time
-* Energy
-* Attention
-* Compute
-* Capital
-* Materials
-* Social capacity
-* Institutional capacity
-
-Questions:
-
-* What is spent?
-* What is depleted?
-* What must be supplied?
-
-If resources are unspecified:
-
-Result:
-
-UNDER-TYPED
-
----
-
-## E3 — Horizon
-
-Over what horizon is the claim expected to hold?
-
-Questions:
-
-* Days?
-* Months?
-* Years?
-* Operational lifetime?
-
-Many claims appear valid only because horizon is omitted.
-
-If horizon cannot be specified:
-
-Result:
-
-UNDER-TYPED
-
----
-
-## E4 — Topology
-
-Through what structure do effects propagate?
-
-Identify:
-
-* Organizations
-* Networks
-* Supply chains
-* Legal systems
-* Communication pathways
-* Physical infrastructure
-
-Questions:
-
-* How does influence move?
-* How does load move?
-* How do consequences travel?
-
-If propagation pathways are unspecified:
-
-Result:
-
-UNDER-TYPED
-
----
-
-## E5 — Drift
-
-What assumptions change over time?
-
-Questions:
-
-* Which parameters are expected to remain stable?
-* Which parameters drift?
-* What invalidates the model?
-
-If the claim assumes indefinite stationarity without justification:
-
-Result:
-
-UNDER-TYPED
-
----
-
-## E6 — Constraints
-
-What prevents arbitrary behavior?
-
-Identify:
-
-* Physical limits
-* Regulatory limits
-* Resource limits
-* Information limits
-* Capability limits
-
-Questions:
-
-* What cannot happen?
-* What bounds the system?
-* What restricts trajectories?
-
-If no constraints are visible:
-
-Result:
-
-UNDER-TYPED
-
----
-
-## E7 — Failure Modes
-
-How does this fail?
-
-Questions:
-
-* What breaks first?
-* What thresholds are crossed?
-* What assumptions are fragile?
-* What collapse conditions exist?
-
-A claim that specifies success but not failure is incomplete.
-
-If failure cannot be articulated:
-
-Result:
-
-UNDER-TYPED
-
----
-
-## E8 — Consequence Routing
-
-Who absorbs the costs?
-
-Questions:
-
-* Who carries risk?
-* Who bears maintenance burden?
-* Who absorbs losses?
-* Where does load accumulate?
-
-Claims often describe benefits while hiding consequence routing.
-
-If consequence absorption is invisible:
-
-Result:
-
-UNDER-TYPED
-
----
-
-# Typing Outcomes
-
-After evaluation:
-
----
-
-## Well-Typed
-
-All eight dimensions are specified sufficiently for further analysis.
-
-This does not imply correctness.
-
-Only structural completeness.
-
----
-
-## Under-Typed
-
-One or more dimensions are missing.
-
-The claim may still be true.
-
-However, evaluation should be suspended until missing structure is supplied.
-
----
-
-## Ill-Typed
-
-The claim contradicts known constraints.
+They fail because they never establish a valid connection between abstraction and execution.
 
 Examples:
 
-* Infinite resources.
-* Costless reversal.
-* Consequence-free action.
-* Unlimited coordination.
-* Drift-free indefinitely adaptive systems.
+- Policies with no identifiable executor.
+- Strategies with no resource basis.
+- Predictions with no propagation mechanism.
+- Narratives with no executable pathway.
+- Goals with no state-transition model.
 
-These violate execution assumptions directly.
+Such ideas may be rhetorically compelling.
+
+They may even be true.
+
+But they remain structurally disconnected from execution.
+
+The filter exists to identify this condition early.
 
 ---
 
-# Interpretation vs Execution
+What The Filter Evaluates
 
-The filter does not reject interpretation.
+The filter evaluates only one question:
+
+«Can this abstraction exist as an executable structure?»
+
+In other words:
+
+Can it cross the boundary between representation and execution?
+
+Can it move from:
+
+Interpretation
+
+to
+
+Executable state transition?
+
+---
+
+What The Filter Does Not Evaluate
+
+The filter deliberately excludes several important questions.
+
+These questions belong to later layers of analysis.
+
+---
+
+Persistence
+
+The filter does not ask:
+
+- Will execution continue?
+- Will incentives remain aligned?
+- Will buffers remain sufficient?
+- Will adaptation occur successfully?
+
+Those are persistence questions.
+
+Persistence presupposes existence.
+
+---
+
+Control
+
+The filter does not ask:
+
+- Is the system observable?
+- Can progress be measured?
+- Can feedback regulate behavior?
+- Can deviations be corrected?
+
+Those are control questions.
+
+Control presupposes execution.
+
+---
+
+Governance
+
+The filter does not ask:
+
+- Who should have authority?
+- Which norms are legitimate?
+- How should conflicts be resolved?
+
+Those are governance questions.
+
+Governance presupposes execution.
+
+---
+
+Scaling
+
+The filter does not ask:
+
+- Can this expand?
+- Can this coordinate globally?
+- Can complexity remain manageable?
+
+Those are scaling questions.
+
+Scaling presupposes existence.
+
+---
+
+Position Within Analysis
+
+The filter occupies the first stage of evaluation.
+
+A useful sequence is:
+
+Exist
+→ Persist
+→ Compose
+→ Scale
+
+The filter addresses only:
+
+Exist
+
+---
+
+The Existence Question
+
+For an abstraction to exist operationally, there must be a coherent path from representation to execution.
+
+The following must be identifiable:
+
+1. An execution locus.
+2. A resource basis.
+3. A finite horizon.
+4. A propagation topology.
+5. Drift exposure.
+6. Binding constraints.
+7. Failure conditions.
+8. Consequence routing.
+
+These elements establish a minimal execution pathway.
+
+Without them, the abstraction remains interpretive.
+
+---
+
+Interpretation Versus Execution
 
 Interpretation includes:
 
-* Meaning
-* Narrative
-* Preference
-* Vision
-* Speculation
+- Narratives
+- Goals
+- Visions
+- Values
+- Predictions
+- Explanations
 
-Interpretation becomes execution-relevant when:
+Interpretation becomes execution when:
 
-* Resources are committed.
-* Authority is exercised.
-* Systems are modified.
-* Obligations are created.
-* State transitions occur.
+- Resources are committed.
+- State transitions occur.
+- Authority is exercised.
+- Load is redistributed.
+- Consequences propagate.
 
-Only then does executability become mandatory.
-
----
-
-# Why The Filter Exists
-
-Modern environments generate more claims than any bounded agent can evaluate.
-
-Direct verification of every idea is infeasible.
-
-The filter reduces search cost by identifying claims that lack sufficient structural grounding before expensive investigation begins.
-
-Its purpose is not to prove claims false.
-
-Its purpose is to identify missing structure.
+The filter examines the transition point.
 
 ---
 
-# Constraint Realism
+Territory and Representation
 
-The filter assumes:
+The filter is grounded in a simple observation:
 
-* Territory precedes maps.
-* Execution precedes interpretation.
-* Consequences propagate regardless of narrative.
-* Structural incompleteness cannot be repaired through confidence, status, or rhetoric.
+Representations are not executions.
+
+A map may describe a trajectory.
+
+A theory may describe a system.
+
+A vision may describe a future.
+
+None of these guarantee that a corresponding executable pathway exists.
 
 The filter therefore asks:
 
-> How does this touch execution?
+«How does this abstraction instantiate in the territory?»
 
 before asking:
 
-> Do I believe it?
+«Is it desirable?»
+
+or
+
+«Is it correct?»
 
 ---
 
-# Summary
+Structural Outcomes
 
-For any claim:
+The filter produces only three outcomes.
 
-1. What executes it?
-2. What resources does it consume?
-3. Over what horizon?
-4. Through what topology?
-5. Under what drift?
-6. Under what constraints?
-7. How does it fail?
-8. Who absorbs consequences?
+---
 
-If these questions cannot be answered, confidence should remain bounded.
+Well-Typed
 
-Executability precedes optimization.
+A coherent execution pathway can be specified.
 
-Structure precedes evaluation.
+This does not imply success.
+
+This does not imply truth.
+
+Only structural executability.
+
+---
+
+Under-Typed
+
+Required execution structure is missing.
+
+The abstraction may still be valuable.
+
+However, execution analysis should be deferred until missing structure is supplied.
+
+---
+
+Ill-Typed
+
+The abstraction contradicts known execution constraints.
+
+Examples include:
+
+- Infinite resources.
+- Costless consequences.
+- Unlimited coordination.
+- Consequence-free action.
+- Drift-free indefinitely adaptive systems.
+
+Such abstractions cannot be reconciled with bounded execution.
+
+---
+
+Summary
+
+This filter is not a theory of success.
+
+It is not a theory of persistence.
+
+It is not a theory of governance.
+
+It is not a theory of scaling.
+
+It is a structural existence test.
+
+Its sole purpose is to determine whether an abstraction possesses a coherent path from representation to execution.
+
+Only after that question is answered do higher-order questions become meaningful.
