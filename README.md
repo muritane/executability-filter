@@ -19,7 +19,7 @@ Its purpose is narrower.
 
 The filter asks:
 
-Can a proposed abstraction be instantiated as an executable structure within a bounded physical environment?
+Can a proposed abstraction be instantiated as an executable causal structure within a bounded physical environment?
 
 This is an existence test.
 
@@ -54,11 +54,35 @@ But they remain disconnected from execution.
 
 The filter exists to identify this condition.
 
+Core Principle
+
+The filter is grounded in a simple observation:
+
+Representations are not executions.
+
+A map may describe a route.
+
+A theory may describe a system.
+
+A model may describe a process.
+
+A vision may describe a future.
+
+None imply that an executable pathway exists.
+
+The relevant question is therefore:
+
+Does the abstraction correspond to a realizable causal process capable of producing state transitions within a bounded environment?
+
+If the answer is no, further analysis is premature.
+
+If the answer is yes, higher-order questions become meaningful.
+
 What The Filter Evaluates
 
 The filter evaluates a single question:
 
-Can this abstraction exist as an executable structure?
+Can this abstraction exist as an executable causal structure?
 
 In other words:
 
@@ -157,9 +181,11 @@ This filter addresses only the first stage.
 
 The Existence Question
 
-For an abstraction to exist operationally, there must be a coherent pathway from representation to execution.
+For an abstraction to exist operationally, a coherent causal pathway from representation to execution must be identifiable.
 
-The following elements must be identifiable.
+The following structures must be specified.
+
+Together they establish whether execution can be instantiated.
 
 1. Execution Locus
 
@@ -175,10 +201,12 @@ Examples include:
 - Organizations.
 - Software systems.
 - Machines.
-- Markets.
+- Networks of interacting agents.
 - Hybrid systems.
 
 At some point, something must perform the transition.
+
+Without an execution locus, execution is undefined.
 
 2. Resource Basis
 
@@ -215,13 +243,19 @@ State A
 
 State B
 
-through specified actions.
+through specified actions or processes.
+
+The transition model describes the causal pathway by which execution produces change.
 
 Without transitions, execution cannot be analyzed.
 
 4. Binding Mechanism
 
 Execution requires a mechanism that connects decisions to behavior.
+
+The transition model describes how change occurs.
+
+The binding mechanism explains why participating agents follow the specified transitions.
 
 Examples include:
 
@@ -234,7 +268,7 @@ Examples include:
 
 Intent alone is not binding.
 
-Execution requires a mechanism through which commitments affect behavior.
+Execution requires a mechanism through which commitments influence behavior.
 
 5. Constraint Surface
 
@@ -248,27 +282,23 @@ Examples include:
 - Economic limits.
 - Cognitive limits.
 
+Execution does not occur in an unconstrained space.
+
 Constraint-free execution is ill-typed.
 
 Territory and Representation
 
-The filter is grounded in a simple observation:
+The existence of a representation does not imply the existence of an executable pathway.
 
-Representations are not executions.
+Descriptions are not implementations.
 
-A map may describe a route.
+Models are not executions.
 
-A theory may describe a system.
-
-A model may describe a process.
-
-A vision may describe a future.
-
-None imply that an executable pathway exists.
+Plans are not state transitions.
 
 The filter therefore asks:
 
-How does this abstraction instantiate in the territory?
+How does this abstraction instantiate within the territory?
 
 before asking:
 
@@ -278,13 +308,17 @@ or
 
 Is it correct?
 
+The burden is not merely to describe.
+
+The burden is to specify a realizable causal structure.
+
 Structural Typing Outcomes
 
 The filter produces three outcomes.
 
 Well-Typed
 
-A coherent execution pathway can be specified.
+A coherent executable pathway can be specified.
 
 The abstraction possesses:
 
@@ -293,6 +327,8 @@ The abstraction possesses:
 - A transition model.
 - A binding mechanism.
 - A constraint surface.
+
+A bounded causal pathway exists from representation to execution.
 
 The abstraction is structurally executable.
 
@@ -323,6 +359,8 @@ Typical symptoms include:
 - Ambiguous authority.
 - Undefined constraints.
 
+The missing structure could, in principle, be supplied without altering the abstraction's core assumptions.
+
 The abstraction remains incomplete with respect to execution.
 
 Ill-Typed
@@ -338,9 +376,15 @@ Examples include:
 - Costless consequences.
 - Constraint-free action.
 
+In these cases the problem is not merely missing detail.
+
+The required execution structure cannot be supplied without changing the abstraction's underlying assumptions.
+
 The contradiction is structural rather than empirical.
 
-Additional detail cannot repair the abstraction without changing its assumptions.
+Additional specification does not repair the abstraction.
+
+The abstraction must be reformulated.
 
 Summary
 
@@ -356,6 +400,6 @@ It is not a theory of scale.
 
 It is a structural existence test.
 
-Its purpose is to determine whether an abstraction possesses a coherent pathway from representation to execution within a bounded environment.
+Its purpose is to determine whether an abstraction possesses a realizable causal pathway from representation to execution within a bounded environment.
 
 Only after that question is answered do higher-order questions become analytically meaningful.
