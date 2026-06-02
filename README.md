@@ -2,8 +2,6 @@ Executability Filter
 
 A Structural Existence Test for Execution-Relevant Abstractions
 
----
-
 Status
 
 This document defines an executability filter.
@@ -21,7 +19,7 @@ Its purpose is narrower.
 
 The filter asks:
 
-«Can a proposed abstraction be structurally connected to execution within a bounded physical environment?»
+Can a proposed abstraction be instantiated as an executable structure within a bounded physical environment?
 
 This is an existence test.
 
@@ -33,39 +31,34 @@ Not a governance test.
 
 Not a scaling test.
 
----
-
 Motivation
 
-Many ideas fail long before questions of success, optimization, incentives, governance, adaptation, or scale become relevant.
+Many ideas fail before questions of effectiveness, efficiency, incentives, governance, adaptation, or scale become relevant.
 
-They fail because they never establish a valid connection between abstraction and execution.
+They fail because no coherent pathway exists between abstraction and execution.
 
 Examples include:
 
 - Policies with no identifiable executor.
-- Strategies with no resource basis.
-- Predictions with no propagation mechanism.
-- Narratives with no executable pathway.
-- Goals with no state-transition model.
-- Coordination schemes with no authority structure.
-- Incentive models with no binding mechanism.
+- Strategies with no execution mechanism.
+- Predictions with no propagation pathway.
+- Goals with no transition model.
+- Coordination schemes with no binding structure.
+- Resource plans with no resource source.
 
-Such ideas may be rhetorically compelling.
+Such ideas may be persuasive.
 
-They may even be true.
+They may even be correct.
 
-But they remain structurally disconnected from execution.
+But they remain disconnected from execution.
 
-The filter exists to identify this condition early.
-
----
+The filter exists to identify this condition.
 
 What The Filter Evaluates
 
-The filter evaluates only one question:
+The filter evaluates a single question:
 
-«Can this abstraction exist as an executable structure?»
+Can this abstraction exist as an executable structure?
 
 In other words:
 
@@ -79,17 +72,13 @@ to
 
 Executable state transition?
 
-The filter does not ask whether execution will succeed.
+The filter does not evaluate whether execution will succeed.
 
-It asks whether execution can be coherently instantiated at all.
-
----
+It evaluates whether execution can be coherently instantiated at all.
 
 What The Filter Does Not Evaluate
 
-The filter deliberately excludes several important classes of questions.
-
-These belong to later analytical layers.
+The filter deliberately excludes questions that belong to later analytical stages.
 
 Truth
 
@@ -105,8 +94,6 @@ A true statement may be non-executable.
 
 Truth and executability are distinct questions.
 
----
-
 Success
 
 The filter does not ask:
@@ -116,10 +103,6 @@ The filter does not ask:
 - Will benefits exceed costs?
 
 Success presupposes execution.
-
-The filter evaluates existence only.
-
----
 
 Persistence
 
@@ -132,21 +115,6 @@ The filter does not ask:
 
 Persistence presupposes existence.
 
----
-
-Control
-
-The filter does not ask:
-
-- Is the system observable?
-- Can progress be measured?
-- Can deviations be corrected?
-- Can feedback regulate behavior?
-
-Control presupposes execution.
-
----
-
 Governance
 
 The filter does not ask:
@@ -156,8 +124,6 @@ The filter does not ask:
 - How should disputes be resolved?
 
 Governance presupposes execution.
-
----
 
 Scaling
 
@@ -169,15 +135,13 @@ The filter does not ask:
 
 Scaling presupposes existence.
 
----
-
 Position Within Analysis
 
 The filter occupies the first stage of evaluation.
 
 A useful sequence is:
 
-«Exist → Persist → Compose → Scale»
+Exist → Persist → Compose → Scale
 
 Where:
 
@@ -189,17 +153,13 @@ Compose asks whether multiple executable systems can coexist and coordinate.
 
 Scale asks whether execution remains viable under increasing complexity and scope.
 
-The filter addresses only the first stage.
-
----
+This filter addresses only the first stage.
 
 The Existence Question
 
 For an abstraction to exist operationally, there must be a coherent pathway from representation to execution.
 
-The following must be identifiable.
-
----
+The following elements must be identifiable.
 
 1. Execution Locus
 
@@ -218,11 +178,7 @@ Examples include:
 - Markets.
 - Hybrid systems.
 
-The chain of execution cannot remain indefinitely symbolic.
-
 At some point, something must perform the transition.
-
----
 
 2. Resource Basis
 
@@ -242,8 +198,6 @@ Resources need not be sufficient.
 They must merely exist.
 
 Resource-free execution is ill-typed.
-
----
 
 3. Transition Model
 
@@ -265,11 +219,9 @@ through specified actions.
 
 Without transitions, execution cannot be analyzed.
 
----
-
 4. Binding Mechanism
 
-Execution requires mechanisms that connect decisions to behavior.
+Execution requires a mechanism that connects decisions to behavior.
 
 Examples include:
 
@@ -284,63 +236,7 @@ Intent alone is not binding.
 
 Execution requires a mechanism through which commitments affect behavior.
 
----
-
-5. Propagation Topology
-
-Execution occurs through structures.
-
-The abstraction must specify how actions propagate.
-
-Examples include:
-
-- Hierarchies.
-- Networks.
-- Markets.
-- Protocol systems.
-- Physical infrastructures.
-
-Execution cannot spread through undefined pathways.
-
----
-
-6. Finite Executable Horizon
-
-Execution must decompose into bounded steps.
-
-This does not require a finite lifetime.
-
-A system may persist indefinitely.
-
-However, execution must occur through finite transitions.
-
-Infinite-action requirements are ill-typed.
-
-Bounded execution increments are required.
-
----
-
-7. Drift Exposure
-
-All executable systems experience drift.
-
-Examples include:
-
-- Incentive drift.
-- Information drift.
-- Resource drift.
-- Goal drift.
-- Environmental drift.
-
-A system need not eliminate drift.
-
-Drift merely has to exist as a coherent concept within the execution model.
-
-Drift-free execution assumptions are suspect and often ill-typed.
-
----
-
-8. Constraint Surface
+5. Constraint Surface
 
 Execution occurs within constraints.
 
@@ -352,82 +248,13 @@ Examples include:
 - Economic limits.
 - Cognitive limits.
 
-The abstraction must identify the constraints that bound execution.
-
 Constraint-free execution is ill-typed.
-
----
-
-9. Failure Conditions
-
-Execution must possess identifiable failure modes.
-
-Examples include:
-
-- Resource exhaustion.
-- Coordination breakdown.
-- Constraint violation.
-- Incentive collapse.
-- Loss of authority.
-
-A system that cannot fail cannot be evaluated.
-
-Failure conditions must therefore be identifiable.
-
----
-
-10. Consequence Routing
-
-Execution produces consequences.
-
-The abstraction must specify where those consequences propagate.
-
-Questions include:
-
-- Who absorbs costs?
-- Who absorbs uncertainty?
-- Who absorbs risk?
-- Who absorbs externalities?
-- Who absorbs failure?
-
-Many abstractions implicitly assume consequences disappear.
-
-Executable systems cannot.
-
-Consequences must route somewhere.
-
----
-
-Interpretation Versus Execution
-
-Interpretation includes:
-
-- Narratives.
-- Goals.
-- Values.
-- Visions.
-- Predictions.
-- Explanations.
-- Theories.
-
-Interpretation becomes execution when:
-
-- Resources are committed.
-- Authority is exercised.
-- State transitions occur.
-- Constraints become active.
-- Load is redistributed.
-- Consequences propagate.
-
-The filter examines this transition point.
-
----
 
 Territory and Representation
 
 The filter is grounded in a simple observation:
 
-«Representations are not executions.»
+Representations are not executions.
 
 A map may describe a route.
 
@@ -437,27 +264,23 @@ A model may describe a process.
 
 A vision may describe a future.
 
-None guarantee an executable pathway exists.
+None imply that an executable pathway exists.
 
 The filter therefore asks:
 
-«How does this abstraction instantiate in the territory?»
+How does this abstraction instantiate in the territory?
 
 before asking:
 
-«Is it desirable?»
+Is it desirable?
 
 or
 
-«Is it correct?»
-
----
+Is it correct?
 
 Structural Typing Outcomes
 
 The filter produces three outcomes.
-
----
 
 Well-Typed
 
@@ -468,11 +291,10 @@ The abstraction possesses:
 - An execution locus.
 - A resource basis.
 - A transition model.
-- Binding mechanisms.
-- Propagation pathways.
-- Constraints.
-- Failure modes.
-- Consequence routing.
+- A binding mechanism.
+- A constraint surface.
+
+The abstraction is structurally executable.
 
 This does not imply:
 
@@ -481,9 +303,7 @@ This does not imply:
 - Efficiency.
 - Persistence.
 
-Only structural executability.
-
----
+Only executability.
 
 Under-Typed
 
@@ -501,33 +321,26 @@ Typical symptoms include:
 - Undefined resources.
 - Unspecified transitions.
 - Ambiguous authority.
-- Unspecified consequence routing.
+- Undefined constraints.
 
 The abstraction remains incomplete with respect to execution.
 
----
-
 Ill-Typed
 
-The abstraction requires conditions that violate invariant constraints of bounded systems.
+The abstraction requires conditions incompatible with bounded execution.
 
 Examples include:
 
 - Infinite resources.
-- Costless consequences.
-- Unlimited coordination.
-- Unlimited information.
 - Instant propagation.
-- Constraint-free adaptation.
-- Consequence-free action.
-
-Such abstractions cannot be reconciled with bounded execution.
+- Unlimited information.
+- Unlimited coordination.
+- Costless consequences.
+- Constraint-free action.
 
 The contradiction is structural rather than empirical.
 
 Additional detail cannot repair the abstraction without changing its assumptions.
-
----
 
 Summary
 
