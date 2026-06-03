@@ -17,6 +17,10 @@ It is not a framework for:
 * Assessing robustness.
 * Assessing scalability.
 * Designing desirable systems.
+* Classifying all possible abstractions.
+* Explaining all emergent behavior.
+* Discovering unknown mechanisms.
+* Evaluating tacit, aesthetic, speculative, or exploratory representations before they are brought into executable specification.
 
 Its purpose is narrower.
 
@@ -36,9 +40,25 @@ Not a governance test.
 
 Not a scaling test.
 
-The filter is intentionally lossy.
+Not a test over all abstractions.
 
-It is designed to reduce the combinatorial space of claims by excluding abstractions that have not yet crossed from representation into executable causal structure.
+The filter is intended for abstractions that already aspire to execution-relevance.
+
+That is, it applies to abstractions being asserted, proposed, evaluated, or refined as candidates for explicit execution.
+
+It is not intended to evaluate every possible representation that humans can generate.
+
+It is not intended to evaluate every emergent, tacit, latent, unknown, or not-yet-articulated structure.
+
+The total space of possible abstractions is combinatorially vast.
+
+Humans do not generate, attend to, or evaluate that space all at once.
+
+We evaluate the abstractions that are produced, noticed, cared about, proposed, contested, or brought into specification.
+
+The filter operates on that narrower candidate set.
+
+It is designed to reduce the space of execution-aspiring claims by excluding abstractions that have not yet crossed from representation into executable causal structure.
 
 It does not identify good systems.
 
@@ -52,7 +72,7 @@ Ideas, goals, theories, strategies, policies, predictions, and coordination sche
 
 Most such combinations never reach execution.
 
-They remain in a representational or pre-executable state.
+They remain in a representational, speculative, exploratory, or pre-executable state.
 
 Examples include:
 
@@ -66,26 +86,88 @@ Examples include:
 * Theories of change with no causal transition pathway.
 * Optimization claims over variables that cannot be acted upon.
 * Governance claims with no mechanism of instantiation.
+* Aspirations that do not specify what changes.
+* Programs that name outcomes but not executable units.
 
 Such claims may be interesting.
 
 They may be persuasive.
 
-They may even be true.
+They may be true.
 
-But they have not yet specified how they enter the territory.
+They may later become executable.
 
-The filter exists to identify this condition early.
+They may be part of discovery.
+
+They may be useful before execution is specified.
+
+But if they are being treated as execution-relevant, they must eventually specify how they enter the territory.
+
+The filter exists to identify whether that condition has been met.
 
 Its function is not to evaluate all dimensions of a claim.
 
-Its function is to aggressively reduce the claim space to those abstractions that possess at least one minimally coherent pathway into execution.
+Its function is to reduce the candidate space to those abstractions that possess at least one minimally coherent pathway into execution.
+
+# Scope of Application
+
+The filter is applied only to abstractions that are being treated as execution-relevant.
+
+This includes abstractions such as:
+
+* Proposed policies.
+* Strategies.
+* Institutional designs.
+* Operational plans.
+* Technical designs.
+* Governance mechanisms.
+* Coordination schemes.
+* Theories of change.
+* Optimization proposals.
+* Control models.
+* Implementation claims.
+* Organizational reforms.
+* Protocols.
+* Algorithms.
+* Procedures.
+* Resource allocation schemes.
+
+The filter is not applied to the total space of possible abstractions.
+
+It is not meant to classify every thought, metaphor, vision, theory, artistic object, speculative concept, or emergent pattern.
+
+Many abstractions may exist outside the filter's immediate domain.
+
+Examples include:
+
+* Exploratory ideas.
+* Open-ended research questions.
+* Aesthetic representations.
+* Tacit practices.
+* Informal habits.
+* Emergent behaviors.
+* Unknown mechanisms.
+* Unknown unknowns.
+* Latent possibilities.
+* Early-stage intuitions.
+* Descriptive theories not yet connected to execution.
+* Representations whose executable relevance has not yet been asserted.
+
+These are not rejected by the filter.
+
+They are simply outside its target use until they are brought into explicit executable specification.
+
+The filter is therefore an attention-management device.
+
+It asks whether a candidate abstraction that already aspires to execution-relevance has enough specified structure to be evaluated as execution.
+
+It is not a metaphysical partition of all possible abstractions.
 
 # Core Principle
 
 The filter is grounded in a simple observation:
 
-**Representations are not executions.**
+**Representation alone is not execution.**
 
 A map may describe a route.
 
@@ -99,13 +181,37 @@ A goal may describe a desired state.
 
 A prediction may describe an expected outcome.
 
-None of these imply that an executable pathway exists.
+None of these, by themselves, imply that an executable pathway exists.
+
+However, representations can participate in execution.
+
+Policies, contracts, algorithms, control models, signs, protocols, interfaces, code, procedures, and institutional rules may all be representational structures.
+
+They can become execution-relevant when they are embedded in a causal pathway that makes them operative.
+
+Examples include:
+
+* A policy linked to authority, enforcement, incentives, or administrative procedure.
+* Code interpreted by a machine.
+* A sign perceived by an actor and used to guide action.
+* A contract linked to enforceable obligations.
+* A model output connected to an operational decision.
+* A protocol that constrains valid interactions.
+* A control model coupled to sensors, actuators, and feedback.
+
+The distinction is therefore not:
+
+Representation versus execution as mutually exclusive categories.
+
+The distinction is:
+
+Representation alone versus representation embedded in executable causal structure.
 
 The relevant first question is therefore:
 
 **Does the abstraction specify a realizable causal structure capable of producing at least one state transition within a bounded environment?**
 
-If the answer is no, further analysis is premature.
+If the answer is no, further execution analysis is premature.
 
 If the answer is yes, the abstraction has crossed the first boundary into execution relevance.
 
@@ -139,15 +245,19 @@ or:
 
 **Is this robust under real-world conditions?**
 
+or:
+
+**Is this the best possible formulation?**
+
 The filter is deliberately minimal.
 
-It asks for the smallest set of structures required for an abstraction to survive initial contact with reality.
+It asks for the smallest set of structures required for an abstraction to survive initial contact with bounded reality.
 
 Additional structures may be necessary for higher-order evaluation.
 
 Examples include:
 
-* Observability.
+* Observability beyond minimal execution.
 * Feedback.
 * Adaptation.
 * Coordination topology.
@@ -157,14 +267,50 @@ Examples include:
 * Institutional legitimacy.
 * Long-term resource renewal.
 * Scaling dynamics.
+* Comparative performance.
+* Evaluator agreement.
+* Error correction.
+* Empirical validation.
 
 These are important.
 
-They are not part of the first filter.
+They are not all part of the first filter.
 
-They belong to later analytical stages.
+They belong to later analytical stages unless they are necessary for the claimed minimal transition to occur.
 
-The purpose of the first filter is to separate execution-relevant claims from claims that remain in the brewing, aspirational, speculative, or representational phase.
+The purpose of the first filter is to separate execution-relevant claims from claims that remain in the brewing, aspirational, speculative, exploratory, or representational phase.
+
+# Provisional Decomposition
+
+The filter uses a five-component structural decomposition:
+
+* Execution locus.
+* Resource basis.
+* Transition model.
+* Binding mechanism.
+* Constraint surface.
+
+It also requires a specified minimal executable unit.
+
+This decomposition is provisional.
+
+It is a contestable structural set.
+
+It is not presented as a final ontology of execution.
+
+It is not claimed to be the only possible decomposition.
+
+It is not claimed to be scientifically complete.
+
+It is not claimed to be immune to replacement.
+
+A more coherent decomposition could replace it if it preserves or improves the filter's ability to identify executable contact.
+
+The current decomposition is used because it captures a recurring pattern:
+
+For execution to be specified, something must act, with some input basis, through some transition, under some stabilizing or realizing mechanism, within some bounded environment, at some evaluable grain.
+
+The decomposition should therefore be judged by its usefulness as a first-pass structural filter, not as a final theory of all execution.
 
 # Bounded Environment
 
@@ -180,6 +326,10 @@ A bounded environment is a domain with finite:
 * Cognitive capacity.
 * Physical capacity.
 * Organizational capacity.
+* Perceptual capacity.
+* Legibility.
+* Authority.
+* Attention.
 
 A bounded environment also contains operative constraints.
 
@@ -193,6 +343,10 @@ These may include:
 * Coordination constraints.
 * Legal constraints.
 * Cognitive constraints.
+* Perceptual constraints.
+* Interface constraints.
+* Measurement constraints.
+* Communication constraints.
 
 The bounded environment defines the territory within which execution must occur.
 
@@ -268,6 +422,9 @@ Examples include:
 * Costless enforcement.
 * Instantaneous adaptation.
 * Action over variables that cannot be accessed or affected.
+* Perception of signals by agents that cannot perceive them.
+* Measurement of states that cannot be measured by the specified system.
+* Authority exercised by no identifiable authority-holder.
 
 The filter does not evaluate truth in general.
 
@@ -321,7 +478,7 @@ The filter does not ask:
 
 Persistence presupposes existence.
 
-The filter may require a local binding mechanism sufficient to instantiate execution.
+The filter may require a local binding or realizing mechanism sufficient to instantiate execution.
 
 It does not require a mechanism that guarantees continued operation over time.
 
@@ -370,6 +527,22 @@ The filter asks whether execution can be instantiated at all.
 
 It does not ask whether execution remains viable under expansion.
 
+## Discovery
+
+The filter does not ask:
+
+* Could an unknown mechanism later be discovered?
+* Could an emergent process later become legible?
+* Could tacit practice later be formalized?
+* Could a vague abstraction later become executable?
+* Could an unknown unknown later become known?
+
+Discovery may transform an under-typed abstraction into a well-typed one.
+
+The filter does not deny that possibility.
+
+It only evaluates the current specified structure.
+
 # Position Within Analysis
 
 The filter occupies the first stage of evaluation.
@@ -408,7 +581,7 @@ Together they establish whether execution can be minimally instantiated.
 
 There must be an identifiable locus through which state transitions occur.
 
-Execution cannot occur in abstraction.
+Execution cannot occur in abstraction alone.
 
 Execution must terminate in one or more concrete causal mechanisms.
 
@@ -424,6 +597,11 @@ Examples include:
 * Markets.
 * Protocols.
 * Hybrid systems.
+* Administrative procedures.
+* Interfaces.
+* Sensors and actuators.
+* Contracts.
+* Control systems.
 
 At some point, something must perform or realize the transition.
 
@@ -437,7 +615,7 @@ Diagnostic question:
 
 Execution requires resources.
 
-Resources are the inputs consumed, allocated, transformed, or required by execution.
+Resources are the inputs consumed, allocated, transformed, perceived, accessed, or required by execution.
 
 Examples include:
 
@@ -452,6 +630,12 @@ Examples include:
 * Authority.
 * Access.
 * Legibility.
+* Measurement.
+* Perception.
+* Communication capacity.
+* Interface access.
+* Legal standing.
+* Operational permissions.
 
 Resources need not be sufficient for success.
 
@@ -468,6 +652,12 @@ Resource-free execution is ill-typed.
 A claim that resources exist somewhere is not enough.
 
 There must be an identifiable resource basis connected to the proposed execution pathway.
+
+If the transition depends on perception, then the required signal must be perceivable by the specified execution locus.
+
+If the transition depends on measurement, then the relevant variable must be measurable by the specified system.
+
+If the transition depends on instruction, then the instruction must be accessible to the actor or mechanism expected to act on it.
 
 Without a resource basis, execution has no input structure.
 
@@ -486,6 +676,8 @@ A vision is not a transition model.
 A preference is not a transition model.
 
 A prediction is not a transition model.
+
+A value is not a transition model.
 
 Execution requires identifiable transformations:
 
@@ -509,6 +701,9 @@ Examples include:
 * A protocol routes information.
 * A feedback loop modifies behavior.
 * A legal rule changes permissible action.
+* A control model updates actuator behavior.
+* A sign changes navigation behavior when perceived.
+* A classifier routes one case into one operational pathway.
 
 The transition model does not need to be optimal.
 
@@ -524,13 +719,13 @@ Diagnostic question:
 
 **By what process does State A become State B?**
 
-## 4. Binding Mechanism
+## 4. Binding or Realizing Mechanism
 
-Execution requires a mechanism that stabilizes, enforces, compels, constrains, or realizes the transition pathway.
+Execution requires a mechanism that stabilizes, enforces, compels, constrains, realizes, or otherwise makes the transition pathway operative.
 
 The transition model describes how change occurs.
 
-The binding mechanism explains why the specified transition can occur as specified rather than remaining merely optional, aspirational, or undefined.
+The binding or realizing mechanism explains why the specified transition can occur as specified rather than remaining merely optional, aspirational, or undefined.
 
 Examples include:
 
@@ -547,6 +742,12 @@ Examples include:
 * Institutional rules.
 * Reputational penalties.
 * Technical interfaces.
+* Workflow permissions.
+* Machine interpretation.
+* Sensor-actuator coupling.
+* Administrative mandate.
+* Material coupling.
+* Local causal necessity.
 
 Intent alone is not binding.
 
@@ -556,9 +757,9 @@ Description alone is not binding.
 
 Preference alone is not binding.
 
-Execution requires some mechanism through which the proposed transition is locally maintained, enforced, stabilized, or realized.
+Execution requires some mechanism through which the proposed transition is locally maintained, enforced, stabilized, constrained, realized, or made operative.
 
-The binding mechanism does not need to guarantee persistence over time.
+The mechanism does not need to guarantee persistence over time.
 
 It does not need to be legitimate.
 
@@ -568,11 +769,17 @@ It does not need to be robust.
 
 It only needs to explain why the transition can be instantiated at the moment or interval of execution.
 
-Without a binding mechanism, the transition pathway dissolves into possibility rather than execution.
+This requirement is not a claim that all real-world behavior depends on explicit formal enforcement.
+
+Emergent, tacit, exploratory, and weakly specified systems may execute in practice.
+
+But when an abstraction is being evaluated as an explicit execution-relevant claim, the evaluator must be able to identify what locally realizes the transition.
+
+Without a binding or realizing mechanism, the transition pathway dissolves into possibility rather than execution.
 
 Diagnostic question:
 
-**What makes the proposed transition occur rather than remain optional, aspirational, or unstable?**
+**What makes the proposed transition occur rather than remain optional, aspirational, unstable, or undefined?**
 
 ## 5. Constraint Surface
 
@@ -592,6 +799,13 @@ Examples include:
 * Coordination limits.
 * Time limits.
 * Energy limits.
+* Perceptual limits.
+* Measurement limits.
+* Interface limits.
+* Communication limits.
+* Legibility limits.
+* Authority limits.
+* Accessibility limits.
 
 Execution does not occur in an unconstrained space.
 
@@ -606,6 +820,14 @@ They need not be fully modeled.
 They need not define every failure mode.
 
 They only need to define the bounded environment in which execution is claimed to be possible.
+
+Observability and legibility enter the filter here when they are required for the claimed transition.
+
+For example, a policy that requires people to read signs is not executable for actors who cannot perceive those signs unless some accessible signaling mechanism is supplied.
+
+A monitoring system that depends on a variable no available system can measure is not executable as specified.
+
+A control process that requires feedback no actor or machine receives is not executable as specified.
 
 Without a constraint surface, execution is not situated in the territory.
 
@@ -630,6 +852,9 @@ Examples include:
 * “Increase innovation.”
 * “Solve misinformation.”
 * “Improve collective intelligence.”
+* “Optimize for public value.”
+* “Increase trust.”
+* “Make the organization more strategic.”
 
 These may describe desired directions.
 
@@ -648,6 +873,9 @@ Examples include:
 * A policy creates an enforcement procedure.
 * A platform demotes one content item according to one rule.
 * A model output triggers one operational decision.
+* A sign directs one actor through one accessible signal.
+* A classifier routes one case to one queue.
+* A procurement request under a threshold is routed to a departmental approver.
 
 The minimal executable unit is the smallest bounded causal structure through which the abstraction claims to produce a state transition.
 
@@ -665,15 +893,21 @@ The existence of a representation does not imply the existence of an executable 
 
 Descriptions are not implementations.
 
-Models are not executions.
+Models are not executions unless connected to operative mechanisms.
 
-Plans are not state transitions.
+Plans are not state transitions unless enacted through execution loci.
 
 Goals are not mechanisms.
 
-Predictions are not propagation pathways.
+Predictions are not propagation pathways unless connected to action.
 
 Preferences are not binding structures.
+
+Policies are not execution unless connected to authority, procedure, incentives, enforcement, automation, or some other realizing mechanism.
+
+Code is not execution unless it is interpretable by a machine in an operative environment.
+
+Signs are not execution unless they are perceivable and behaviorally connected to actors or mechanisms.
 
 The filter therefore asks:
 
@@ -701,7 +935,40 @@ The burden is to specify a minimally realizable causal structure.
 
 # Structural Typing Outcomes
 
-The filter produces three outcomes.
+The filter produces three local component outcomes:
+
+* Well-typed.
+* Under-typed.
+* Ill-typed.
+
+These outcomes can be assigned to each required component.
+
+The overall result is derived from the component vector.
+
+## Component Vector
+
+Each abstraction should be evaluated across the following components:
+
+| Component                      | Status                               |
+| ------------------------------ | ------------------------------------ |
+| Minimal executable unit        | Well-typed / Under-typed / Ill-typed |
+| Execution locus                | Well-typed / Under-typed / Ill-typed |
+| Resource basis                 | Well-typed / Under-typed / Ill-typed |
+| Transition model               | Well-typed / Under-typed / Ill-typed |
+| Binding or realizing mechanism | Well-typed / Under-typed / Ill-typed |
+| Constraint surface             | Well-typed / Under-typed / Ill-typed |
+
+The aggregate rule is:
+
+* If any required component is ill-typed, the abstraction is ill-typed.
+* If no required component is ill-typed but at least one required component is under-typed, the abstraction is under-typed.
+* If all required components are well-typed, the abstraction is well-typed.
+
+This makes the classification explicit.
+
+It also makes disagreement easier to locate.
+
+Evaluators can contest the status of a component rather than only contesting the final classification.
 
 ## Well-Typed
 
@@ -709,12 +976,12 @@ A minimally coherent executable pathway can be specified.
 
 The abstraction possesses:
 
+* A minimal executable unit.
 * An execution locus.
 * A resource basis sufficient for minimal instantiation.
 * A transition model.
-* A local binding mechanism.
+* A local binding or realizing mechanism.
 * A constraint surface.
-* A specified minimal executable unit.
 
 A bounded causal pathway exists from representation to at least one executable state transition.
 
@@ -755,7 +1022,9 @@ Required execution structure is missing.
 
 The abstraction may still be valuable.
 
-The abstraction may even be correct.
+The abstraction may be true.
+
+The abstraction may later become executable.
 
 However, execution analysis should be deferred until missing structure is supplied.
 
@@ -764,15 +1033,18 @@ Typical symptoms include:
 * Missing execution loci.
 * Undefined resources.
 * Unspecified transitions.
-* Missing binding mechanisms.
+* Missing binding or realizing mechanisms.
 * Undefined constraints.
 * No minimal executable unit.
 * Vague references to implementation.
 * Reliance on intent without mechanism.
-* Reliance on agreement without enforcement.
+* Reliance on agreement without enforcement or realization.
 * Reliance on goals without transition pathways.
 * Reliance on prediction without propagation pathways.
 * Reliance on optimization without actionable variables.
+* Reliance on perception without accessible signals.
+* Reliance on measurement without measurement pathways.
+* Reliance on feedback without feedback channels.
 
 The missing structure could, in principle, be supplied without altering the abstraction's core assumptions.
 
@@ -784,7 +1056,7 @@ It is not necessarily impossible.
 
 It is structurally incomplete.
 
-It remains in the brewing or pre-executable phase.
+It remains in the brewing, exploratory, aspirational, or pre-executable phase.
 
 ## Ill-Typed
 
@@ -807,6 +1079,10 @@ Examples include:
 * Authority without a locus.
 * Optimization over variables that cannot be observed or acted upon.
 * Execution that requires the absence of operative constraints.
+* Perception of signals inaccessible to the specified actor.
+* Measurement of variables that cannot be measured by the specified system.
+* Control without feedback where feedback is required.
+* Action by entities with no access to the action channel.
 
 In these cases the problem is not merely missing detail.
 
@@ -814,9 +1090,53 @@ The required execution structure cannot be supplied without changing the abstrac
 
 The contradiction is structural rather than empirical.
 
-Additional specification does not repair the abstraction.
+Additional specification does not repair the abstraction unless the abstraction itself is reformulated.
 
-The abstraction must be reformulated.
+# Under-Typed Versus Ill-Typed
+
+The distinction between under-typed and ill-typed is important.
+
+An abstraction is under-typed when required execution structure is missing but could plausibly be supplied without changing the abstraction's core assumptions.
+
+An abstraction is ill-typed when the required execution structure contradicts bounded execution conditions.
+
+The distinction can be stated as follows:
+
+* Under-typed: the structure is absent.
+* Ill-typed: the structure cannot exist as specified.
+
+Examples:
+
+* “The organization will improve coordination.”
+
+  * Under-typed.
+  * The claim lacks execution structure, but structure could be supplied.
+
+* “All agents will instantly coordinate without communication, incentives, authority, shared information, or causal coupling.”
+
+  * Ill-typed.
+  * The claim requires conditions incompatible with bounded execution.
+
+* “The policy will work because everyone will read the posted signs.”
+
+  * Under-typed if the relevant actors, signs, environments, and perceptual conditions are unspecified.
+  * Ill-typed if the specified actors cannot perceive the signs and no accessible signaling mechanism exists.
+
+* “The system optimizes a variable that no actor, sensor, institution, or model can observe or affect.”
+
+  * Ill-typed.
+  * The claimed execution depends on an inaccessible variable.
+
+When classification is ambiguous, the evaluator should mark the relevant component as contested rather than force false precision.
+
+The component vector can represent this by adding notes.
+
+Example:
+
+| Component                      | Status                  | Note                                                                          |
+| ------------------------------ | ----------------------- | ----------------------------------------------------------------------------- |
+| Binding or realizing mechanism | Under-typed / contested | Voluntary compliance is asserted, but no stabilizing mechanism is specified.  |
+| Constraint surface             | Ill-typed / contested   | The claim appears to require information unavailable to the specified actors. |
 
 # Diagnostic Procedure
 
@@ -828,13 +1148,25 @@ Identify the proposal, model, policy, strategy, theory of change, prediction, go
 
 If the abstraction is too broad, reduce it to a claimed executable unit.
 
-## 2. What is the minimal executable unit?
+## 2. Is the abstraction being treated as execution-relevant?
+
+Ask whether the abstraction is being proposed, asserted, or refined as something that should make contact with execution.
+
+If not, the filter may not be the appropriate tool.
+
+The abstraction may be exploratory, speculative, aesthetic, descriptive, or pre-specification.
+
+In that case, do not classify it as failed.
+
+Classify it as outside the filter's current target domain.
+
+## 3. What is the minimal executable unit?
 
 Identify the smallest bounded causal structure through which the abstraction claims to produce a state transition.
 
 If no such unit can be identified, the abstraction is under-typed.
 
-## 3. Where is the execution locus?
+## 4. Where is the execution locus?
 
 Identify the entity or mechanism through which the transition occurs.
 
@@ -844,7 +1176,7 @@ Ask:
 
 If nothing acts, execution is undefined.
 
-## 4. What is the resource basis?
+## 5. What is the resource basis?
 
 Identify the resources required for minimal instantiation.
 
@@ -856,7 +1188,7 @@ If no resource basis exists, execution is undefined.
 
 If the abstraction requires impossible resources, it is ill-typed.
 
-## 5. What is the transition model?
+## 6. What is the transition model?
 
 Identify how State A becomes State B.
 
@@ -868,19 +1200,19 @@ If there is no transition model, the abstraction is under-typed.
 
 If the transition contradicts bounded execution, the abstraction is ill-typed.
 
-## 6. What is the binding mechanism?
+## 7. What is the binding or realizing mechanism?
 
 Identify what makes the transition occur as specified.
 
 Ask:
 
-**Why does the transition happen rather than dissolve into alternative behavior or remain merely aspirational?**
+**Why does the transition happen rather than dissolve into alternative behavior, remain merely aspirational, or remain undefined?**
 
-If no binding mechanism exists, the abstraction is under-typed.
+If no binding or realizing mechanism exists, the abstraction is under-typed.
 
 If the abstraction requires binding without any possible mechanism, it is ill-typed.
 
-## 7. What is the constraint surface?
+## 8. What is the constraint surface?
 
 Identify the limits within which execution occurs.
 
@@ -892,13 +1224,24 @@ If constraints are unspecified, the abstraction is under-typed.
 
 If the abstraction requires the absence of constraints, it is ill-typed.
 
-## 8. What is the typing outcome?
+## 9. What is the component vector?
+
+Assign a status to each required component:
+
+* Well-typed.
+* Under-typed.
+* Ill-typed.
+
+Then derive the aggregate result.
+
+## 10. What is the typing outcome?
 
 Classify the abstraction as:
 
 * Well-typed.
 * Under-typed.
 * Ill-typed.
+* Outside current target domain.
 
 Then stop.
 
@@ -918,15 +1261,19 @@ Those belong to later stages.
 
 The filter can be summarized as follows:
 
-**An abstraction is execution-well-typed if, within a bounded environment, it specifies an execution locus, a minimally sufficient resource basis, a transition model, a local binding mechanism, a constraint surface, and a minimal executable unit sufficient to instantiate at least one claimed state transition.**
+**An abstraction is execution-well-typed if, within a bounded environment, it specifies a minimal executable unit, an execution locus, a minimally sufficient resource basis, a transition model, a local binding or realizing mechanism, and a constraint surface sufficient to instantiate at least one claimed state transition.**
 
-This is the minimum structure required for execution relevance.
+This is the minimum structure required for execution relevance under this filter.
+
+The component set is provisional and contestable.
+
+It may be revised if a better decomposition is found.
 
 # Search-Space Interpretation
 
 The filter can be understood as a search-space reduction device.
 
-The universe of possible claims is vast.
+The universe of possible abstractions is vast.
 
 Most possible arrangements of concepts do not form executable structures.
 
@@ -936,17 +1283,31 @@ They may be suggestive.
 
 They may be rhetorically powerful.
 
+They may later become executable.
+
 But they do not yet define a causal pathway into action.
 
-The filter operates like a parser for executable claims.
+The filter operates like a parser for execution-aspiring claims.
 
 It does not ask whether a sentence is true.
 
 It asks whether the structure is sufficiently formed to be evaluated as execution.
 
+The relevant search space is not the literal totality of all possible language strings or all possible abstractions.
+
+That space is combinatorially too large to evaluate directly.
+
+The relevant search space is the candidate set of abstractions that humans generate, notice, care about, propose, and bring into execution-relevant specification.
+
+Within that candidate set, the filter reduces search by excluding claims that are not yet executable enough to justify more expensive evaluation.
+
 The sequence is:
 
-All possible abstractions
+All generated or considered abstractions
+
+→
+
+Execution-aspiring abstractions
 
 →
 
@@ -968,9 +1329,113 @@ Scalable systems
 
 Optimized systems
 
-The executability filter performs only the first reduction.
+The executability filter performs only the reduction from execution-aspiring abstractions to execution-relevant abstractions.
 
 It discards claims that have not yet specified enough structure to survive initial contact with bounded reality.
+
+# Comparative Reduction Efficiency
+
+The filter's reduction efficiency can be defined operationally.
+
+Given a candidate set of abstractions submitted for execution-relevance assessment, the filter reduces the set by classifying abstractions as:
+
+* Well-typed.
+* Under-typed.
+* Ill-typed.
+* Outside current target domain.
+
+A simple reduction measure is:
+
+**Excluded proportion = (under-typed + ill-typed + outside-domain candidates) / total candidates evaluated**
+
+A stricter measure is:
+
+**Execution-pass proportion = well-typed candidates / total candidates evaluated**
+
+Comparative reduction efficiency can be evaluated by comparing the filter against alternative filters over the same candidate set.
+
+Relevant comparison criteria include:
+
+* How many premature claims are excluded before costly evaluation?
+* How many mature executable claims are preserved?
+* How often do evaluators agree?
+* How often are later-stage analyses wasted on under-specified claims?
+* How often does the filter falsely exclude claims that later become well-specified?
+* How much time or cognitive effort is saved before persistence, governance, robustness, scale, or optimization analysis?
+
+The filter does not need to solve the full combinatorics of language.
+
+It only needs to reduce the evaluated candidate set in a useful way.
+
+# Discriminative Power
+
+The filter is expected to be most discriminative at the low-specification layer.
+
+It is designed to reject vague, premature, or rhetorically powerful abstractions that are being treated as execution-relevant without executable structure.
+
+Examples include:
+
+* “Improve governance.”
+* “Align incentives.”
+* “Optimize for public value.”
+* “Coordinate society.”
+* “Reduce misinformation.”
+* “Make the institution adaptive.”
+* “Use AI to solve the problem.”
+* “Build trust.”
+* “Increase innovation.”
+
+This is intentional.
+
+The filter is not meant to finely rank mature implementations.
+
+It is not meant to replace later evaluation.
+
+Once a proposal already contains a clear execution locus, resource basis, transition model, binding or realizing mechanism, constraint surface, and minimal executable unit, the filter will often pass it.
+
+That is not a failure.
+
+It means the claim has crossed into the domain where later questions become meaningful.
+
+The filter should therefore be judged by its ability to reject execution-irrelevant or under-specified claims early, not by its ability to evaluate complete systems.
+
+# Relation to Known, Similar, Unknown, and Unknown-Unknown Cases
+
+The filter is primarily designed for known or partially known execution candidates.
+
+It is most useful when the evaluator has enough structure to ask:
+
+* What acts?
+* With what resources?
+* Through what transition?
+* Under what realizing mechanism?
+* Within what constraints?
+* At what minimal executable unit?
+
+This resembles distinctions sometimes made between:
+
+* Known objects.
+* Similar objects.
+* Unknown objects.
+* Unknown unknowns.
+
+The filter is strongest for known and similar execution candidates.
+
+It can sometimes handle unknown objects if enough structure is supplied to evaluate execution.
+
+It cannot directly evaluate unknown unknowns.
+
+Unknown unknowns may later become known.
+
+Emergent mechanisms may later become legible.
+
+Tacit practices may later be specified.
+
+At that point they can enter the filter's domain.
+
+Until then, the appropriate outcome is not failure.
+
+The appropriate outcome is outside current target domain or under-typed, depending on whether execution-relevance is being asserted.
 
 # Examples
 
@@ -982,12 +1447,23 @@ Claim:
 
 Evaluation:
 
+* Minimal executable unit: unspecified.
 * Execution locus: unspecified.
 * Resource basis: unspecified.
 * Transition model: unspecified.
-* Binding mechanism: unspecified.
+* Binding or realizing mechanism: unspecified.
 * Constraint surface: unspecified.
-* Minimal executable unit: unspecified.
+
+Component vector:
+
+| Component                      | Status      |
+| ------------------------------ | ----------- |
+| Minimal executable unit        | Under-typed |
+| Execution locus                | Under-typed |
+| Resource basis                 | Under-typed |
+| Transition model               | Under-typed |
+| Binding or realizing mechanism | Under-typed |
+| Constraint surface             | Under-typed |
 
 Outcome:
 
@@ -1009,12 +1485,23 @@ Claim:
 
 Evaluation:
 
+* Minimal executable unit: one content item processed through the enforcement pipeline.
 * Execution locus: software system, classifiers, reviewers, enforcement process.
 * Resource basis: compute, training data, reviewer labor, policy staff, platform access.
 * Transition model: content enters system, is classified, routed, reviewed, demoted, or penalized.
-* Binding mechanism: platform rules, automated ranking changes, account penalties, reviewer workflow.
+* Binding or realizing mechanism: platform rules, automated ranking changes, account penalties, reviewer workflow.
 * Constraint surface: classifier accuracy limits, reviewer capacity, legal limits, latency, appeal process.
-* Minimal executable unit: one content item processed through the enforcement pipeline.
+
+Component vector:
+
+| Component                      | Status     |
+| ------------------------------ | ---------- |
+| Minimal executable unit        | Well-typed |
+| Execution locus                | Well-typed |
+| Resource basis                 | Well-typed |
+| Transition model               | Well-typed |
+| Binding or realizing mechanism | Well-typed |
+| Constraint surface             | Well-typed |
 
 Outcome:
 
@@ -1032,12 +1519,23 @@ Claim:
 
 Evaluation:
 
+* Minimal executable unit: depends on instantaneous universal coordination.
 * Execution locus: unspecified or universal.
 * Resource basis: unlimited information and attention implied.
 * Transition model: instant behavioral update.
-* Binding mechanism: absent or assumed.
+* Binding or realizing mechanism: absent or assumed.
 * Constraint surface: effectively absent.
-* Minimal executable unit: depends on instantaneous universal coordination.
+
+Component vector:
+
+| Component                      | Status      |
+| ------------------------------ | ----------- |
+| Minimal executable unit        | Ill-typed   |
+| Execution locus                | Under-typed |
+| Resource basis                 | Ill-typed   |
+| Transition model               | Ill-typed   |
+| Binding or realizing mechanism | Under-typed |
+| Constraint surface             | Ill-typed   |
 
 Outcome:
 
@@ -1055,12 +1553,23 @@ Claim:
 
 Evaluation:
 
+* Minimal executable unit: absent.
 * Execution locus: vague.
 * Resource basis: unspecified.
 * Transition model: absent.
-* Binding mechanism: absent.
+* Binding or realizing mechanism: absent.
 * Constraint surface: unspecified.
-* Minimal executable unit: absent.
+
+Component vector:
+
+| Component                      | Status      |
+| ------------------------------ | ----------- |
+| Minimal executable unit        | Under-typed |
+| Execution locus                | Under-typed |
+| Resource basis                 | Under-typed |
+| Transition model               | Under-typed |
+| Binding or realizing mechanism | Under-typed |
+| Constraint surface             | Under-typed |
 
 Outcome:
 
@@ -1078,12 +1587,23 @@ Claim:
 
 Evaluation:
 
+* Minimal executable unit: one powered motor producing rotation.
 * Execution locus: motor.
 * Resource basis: electrical energy, material components.
 * Transition model: electromagnetic interaction produces rotation.
-* Binding mechanism: physical law and mechanical design.
+* Binding or realizing mechanism: physical law and mechanical design.
 * Constraint surface: voltage, heat, friction, load, material tolerances.
-* Minimal executable unit: one powered motor producing rotation.
+
+Component vector:
+
+| Component                      | Status     |
+| ------------------------------ | ---------- |
+| Minimal executable unit        | Well-typed |
+| Execution locus                | Well-typed |
+| Resource basis                 | Well-typed |
+| Transition model               | Well-typed |
+| Binding or realizing mechanism | Well-typed |
+| Constraint surface             | Well-typed |
 
 Outcome:
 
@@ -1101,13 +1621,24 @@ Claim:
 
 Evaluation:
 
+* Minimal executable unit: absent.
 * Execution locus: unspecified.
 * Resource basis: unspecified.
 * Transition model: unspecified.
-* Binding mechanism: unspecified.
+* Binding or realizing mechanism: unspecified.
 * Constraint surface: unspecified.
-* Minimal executable unit: absent.
 * Actionable variables: undefined.
+
+Component vector:
+
+| Component                      | Status      |
+| ------------------------------ | ----------- |
+| Minimal executable unit        | Under-typed |
+| Execution locus                | Under-typed |
+| Resource basis                 | Under-typed |
+| Transition model               | Under-typed |
+| Binding or realizing mechanism | Under-typed |
+| Constraint surface             | Under-typed |
 
 Outcome:
 
@@ -1125,12 +1656,23 @@ Claim:
 
 Evaluation:
 
+* Minimal executable unit: one purchase request under €5,000 routed to a departmental approver.
 * Execution locus: procurement workflow system and departmental approvers.
 * Resource basis: existing software access, purchase records, approver authority, staff attention.
 * Transition model: purchase request enters system, amount is checked, eligible requests are routed to departmental approval.
-* Binding mechanism: workflow rule, approval permissions, institutional procurement policy.
+* Binding or realizing mechanism: workflow rule, approval permissions, institutional procurement policy.
 * Constraint surface: spending threshold, legal procurement rules, system permissions, approver availability.
-* Minimal executable unit: one purchase request under €5,000 routed to a departmental approver.
+
+Component vector:
+
+| Component                      | Status     |
+| ------------------------------ | ---------- |
+| Minimal executable unit        | Well-typed |
+| Execution locus                | Well-typed |
+| Resource basis                 | Well-typed |
+| Transition model               | Well-typed |
+| Binding or realizing mechanism | Well-typed |
+| Constraint surface             | Well-typed |
 
 Outcome:
 
@@ -1139,6 +1681,68 @@ Outcome:
 This does not mean the reform will reduce delay overall.
 
 It means the claim has reached execution relevance.
+
+## Example 8: Representation Embedded in Execution
+
+Claim:
+
+**“A posted evacuation sign directs building occupants toward the nearest exit.”**
+
+Evaluation:
+
+* Minimal executable unit: one occupant perceives one sign and changes route.
+* Execution locus: occupant, sign, building layout.
+* Resource basis: visible sign, lighting, occupant attention, perceptual access, physical path.
+* Transition model: occupant perceives sign, interprets direction, changes route.
+* Binding or realizing mechanism: sign convention, perception-action coupling, environmental placement.
+* Constraint surface: visibility, language comprehension, lighting, accessibility, crowding, path availability.
+
+Outcome:
+
+**Well-typed if the relevant actors can perceive and use the sign.**
+
+If the specified actors cannot perceive the sign and no accessible alternative exists, the claim becomes ill-typed for those actors.
+
+The representation participates in execution only when embedded in a causal pathway.
+
+## Example 9: Inaccessible Representation
+
+Claim:
+
+**“The emergency procedure will work because all occupants will follow the written signs, including blind occupants who receive no accessible signal.”**
+
+Evaluation:
+
+* Minimal executable unit: one blind occupant follows a written visual sign.
+* Execution locus: occupant and sign.
+* Resource basis: missing accessible perceptual channel.
+* Transition model: visual perception is required but unavailable.
+* Binding or realizing mechanism: absent for the specified actor.
+* Constraint surface: perceptual constraint violated.
+
+Outcome:
+
+**Ill-typed as specified.**
+
+The claim can be repaired by adding an accessible signaling mechanism, such as audio guidance, tactile signage, staff assistance, or another perception pathway.
+
+## Example 10: Outside Current Target Domain
+
+Claim:
+
+**“There may be an unknown emergent practice that later helps communities coordinate more effectively.”**
+
+Evaluation:
+
+The claim does not currently assert a specified execution pathway.
+
+It points to a possible future discovery or emergence.
+
+Outcome:
+
+**Outside current target domain.**
+
+If the practice later becomes identifiable and is proposed as execution-relevant, the filter can be applied.
 
 # Interpretation
 
@@ -1154,9 +1758,11 @@ An under-typed abstraction may later become executable.
 
 An ill-typed abstraction cannot be instantiated without changing its defining assumptions.
 
+An outside-domain abstraction may become evaluable later if it is brought into execution-relevant specification.
+
 Executability is therefore a question of structural validity rather than outcome validity.
 
-The filter should be judged by its ability to reject execution-irrelevant claims early, not by its ability to describe complete or desirable systems.
+The filter should be judged by its ability to reject execution-irrelevant or under-specified claims early, not by its ability to describe complete or desirable systems.
 
 # Summary
 
@@ -1172,7 +1778,9 @@ It is not a theory of robustness.
 
 It is not a theory of scale.
 
-It is a minimal structural test.
+It is not a theory of all abstractions.
+
+It is a minimal structural test for execution-aspiring abstractions.
 
 Its purpose is to determine whether an abstraction possesses enough structure to cross from description into executable state transition within a bounded environment.
 
@@ -1180,6 +1788,8 @@ It is intentionally aggressive.
 
 It is intentionally incomplete.
 
-It is designed to reduce the combinatorial space of claims by identifying which ones are execution-relevant at all.
+It is intentionally scoped to cases where explicit executable specification matters.
+
+It is designed to reduce the candidate space of execution-aspiring claims by identifying which ones are execution-relevant at all.
 
 Only after that question is answered do higher-order questions become analytically meaningful.
